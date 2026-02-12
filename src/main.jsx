@@ -8,9 +8,10 @@ import Gallery from './components/Gallery.jsx'
 import App4 from './components/App4.jsx'
 import Cart from './components/Cart.jsx'
 import Person from './components/Person.jsx'
+import Clock from './components/Clock.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Person />
+     <Clock />
   </StrictMode>,
 )
